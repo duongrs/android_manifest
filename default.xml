@@ -2,6 +2,9 @@
 <manifest>
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
+  <remote  name="origin"
+           fetch="."
+           revision="refs/heads/nanopi2-android-5.1.1-r15" />
   <default revision="refs/tags/android-5.1.1_r15"
            remote="aosp"
            sync-j="4" />
@@ -280,7 +283,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="origin" groups="pdk" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
