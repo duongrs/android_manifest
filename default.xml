@@ -57,6 +57,7 @@
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
+  <project path="device/friendly-arm/nanopi2" name="android_device_friendly-arm_nanopi2" remote="origin" groups="device,nanopi2" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -512,4 +513,8 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <project path="vendor/broadcom/nanopi2" name="android_vendor_broadcom_nanopi2" remote="origin" />
+  <project path="vendor/friendly-arm/build" name="android_vendor_friendly-arm_build" remote="origin" />
+  <project path="vendor/friendly-arm/nanopi2" name="android_vendor_friendly-arm_nanopi2" remote="origin" />
+  <project path="vendor/nexell/s5p4418" name="nexell_platform_s5p4418" remote="origin" />
 </manifest>
